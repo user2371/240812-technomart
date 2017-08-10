@@ -5,8 +5,162 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+  	<header class="page-header">
+  		<div class="header-top">
+  			<div class="header-top-left">
+	  			<div class="header-logo">Техномарт</div>
+	  			<form method="get" action="">
+	  				<p class="search"><input type="text" name="search" placeholder="Поиск"></p>
+	  			</form>
+	  		</div>
+	  		<div class="header-top-right">
+	  			<a href="#">Закладки</a>
+	  			<a href="#">Корзина</a>
+	  			<a class="btn" href="#">Оформить заказ</a>
+	  		</div>	
+  		</div>
+  		<div class="header-middle"> 
+  			<section class="header-shop-description">
+  				<p>
+  					Интернет-магазин<br>
+  					строительних материалов<br> 
+  					и инструментов для ремонта
+  				</p>
+  			</section>
+  			<section class="page-header-contacts">
+  				<span class="header-phone">+7(812) 555-05-55</span>
+  				<p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+  			</section>
+  			<section class="user-block">
+  				<a class="btn" href="#">Войти</a>
+  				<a class="btn" href="#">Регистрация</a>
+  			</section>
+  		</div>
+  		<div class="header-bottom">
+  			<nav class="main-menu">
+  				<ul>
+  					<li><a href="#">Главная</a></li>
+  					<li><a href="#">Компания</a></li>
+  					<li><a href="#">Каталог</a></li>
+  					<li><a href="#">Новости</a></li>
+  					<li><a href="#">Спецпредложения</a></li>
+  					<li><a href="#">Доставка</a></li>
+  					<li><a href="#">Контакти</a></li>
+  				</ul>
+  			</nav>
+  		</div>
+  	</header>  		
+  	<main class="main-content">
+  		<section class="promo">
+  			<ul class="promo-list">
+  				<li class="promo-item">
+  					<h3>Материали</h3>
+  					<a class="btn promo-btn" href="#">Налюбой вкус</a></li>
+  				<li class="promo-item">
+  					<h3>Инструмент</h3>
+  					<a class="btn promo-btn" href="#">На все случаи</a></li>
+  				<li class="promo-item">
+  					<h3>Техника</h3>
+  					<a class="btn promo-btn" href="#">Для стройки</a></li>
+  				<li class="promo-item">
+  					<h3>Скидка 50%</h3>
+  					<a class="btn promo-btn" href="#">На 350 Товаров</a></li>
+  				<li class="promo-item">
+  					<h3>Доставка</h3>
+  					<a class="btn promo-btn" href="#">Бесплатно</a></li>
+  			</ul>
+  			<figure class="promo-slider">
+  				<figcaption>
+  					<b>Перфораторы</b>
+  					<p>Настоящие мужские игрушки</p>
+  				</figcaption>
+  				<img src="http://placehold.it/150x100" alt="Перфораторы"><br>
+  				<button class="btn slider-btn">&lt;</button>
+  				<button class="btn slider-btn">&gt;</button>
+  				<a class="btn" href="#">Открыть каталог</a>
+  			</figure>
+  		</section>
+  		<section class="popular-itmes">
+  			<div class="section-top">
+  				<h2 class="section-title">Популярные товары</h2>
+  				<a class="btn" href="#">Все популярные товары</a>
+  			</div>
+  			<ul class="popular-items-list">
+  				<li>
+  					<img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+  					<h3>Перфоратор BOSCH BFG 9000</h3>
+  					<span><del datetime="2017-08-11">32500 Р.</del></span>
+  					<a class="btn popular-items-btn" href="#">25 500 Р.</a></li>
+  				<li>
+  					<img src="http://placehold.it/150x100" alt="BOSCH BFG 3000">
+  					<h3>Перфоратор BOSCH BFG 3000</h3>
+  					<span><del datetime="2017-08-11">22500 Р.</del></span>
+  					<a class="btn popular-items-btn" href="#">15 500 Р.</a></li>
+  				<li>
+  					<img src="http://placehold.it/150x100" alt="BOSCH BFG 6000">
+  					<h3>Перфоратор BOSCH BFG 6000</h3>
+  					<span><del datetime="2017-08-11">30500 Р.</del></span>
+  					<a class="btn popular-items-btn" href="#">25 500 Р.</a></li>
+  				<li>
+  					<img src="http://placehold.it/150x100" alt="BOSCH BFG 2000">
+  					<h3>Перфоратор BOSCH BFG 2000</h3>
+  					<a class="btn popular-items-btn" href="#">12 500 Р.</a></li>
+  			</ul>
+  		</section>
+  		<section class="popular-brand">
+  			<div class="section-top">
+  				<h2 class="section-title">Все производители:</h2>
+  				<a class="btn" href="#">Все производители:</a>
+  			</div>
+  			<ul class="brand-list">
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="BOSCH"></a>
+  				</li>
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="makita"></a>
+  				</li>
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="DeWalt"></a>
+  				</li>
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="Интерскол"></a>
+  				</li>
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="Hitachi"></a>
+  				</li>
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="LG"></a>
+  				</li>
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="AEG"></a>
+  				</li>
+  				<li class="brand-item">
+  					<a href="#"><img src="http://placehold.it/150x100" alt="metabo"></a>
+  				</li>
+  			</ul>
+  		</section>
+  		<section class="servises">
+  			<h2 class="section-title">Сервисы</h2>
+  			<p>Хороший интернет-магазин отличается от плохого не только ценами!
+  			   Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
+  			<ul class="servises-list">
+  				<li class="services-item"><a href="#">Доставка</a></li>
+  				<li class="services-item"><a href="#">Гарантия</a></li>
+  				<li class="services-item"><a href="#">Кредит</a></li>
+  			</ul>
+  			<div class="services-about">
+  				<h3>Доставка</h3>
+  				<p>Мы с удовольствием доставим ваш товар прямо
+  				   к вашему подьезду совершенно бесплатно!
+  				   Ведь ми неплохо заработаем,
+  				   поднимая его на ваш этаж!</p>
+  			</div>
+  		</section>
+  		<section class="about-company">
+  			<h2 class="section-title">Компания &laquo;Техномарт&raquo;</h2>
+  		</section>
+  	</main>
+    
 
   </body>
 </html>
