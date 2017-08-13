@@ -34,7 +34,7 @@
     				<p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
     			</section>
     			<section class="user-block">
-    				<strong>Равшан Джамшутович</strong>
+    				<strong>Равшан Джамшутович</strong><br>
     				<a href="#">Мои заказы</a>
   				  <a href="#">Личный кабинет</a>
     			</section>
@@ -59,17 +59,148 @@
   				<a href="#">Инструмент</a>
   				<a class="active" href="#">Перфораторы</a>
   			</div>
-  			<h2>Перфораторы</h2>
+  			<h2 class="section-title">Перфораторы</h2>
         <form methot="post" action=""> <!--не совсем понимаю какое значение я дожен в атрибут eкшн записывать, знаю что это адресс но адрес куда ?-->
           <span>Фильтр:</span>
-          <h3>Цена</h3>
+          <h3 class="filter-title">Цена</h3>
           <p class="price-filter">
             <input type="text" name="min-price" placeholder="0" title="минимальная цена"> &ndash;
             <input type="text" name="max-price" placeholder="30000" title="Максимальная цена">
           </p>  
-          <h3>Производители</h3>
-        </form>  
+          <h3 class="filter-title">Производители</h3>
+          <label for="bosch">Bosch</label>
+          <input type="checkbox" id="bosch" name="brand" value="Bosch" checked><br>
+          <label for="Interskol">Интерскол</label>
+          <input type="checkbox" id="Interskol" name="brand" value="Интерскол"><br>
+          <label for="Makita">Makita</label>
+          <input type="checkbox" id="Makita" name="brand" value="Makita" checked><br>
+          <label for="Dewalt">Dewalt</label>
+          <input type="checkbox" id="Dewalt" name="brand" value="Dewalt"><br>
+          <label for="Hitachi">Hitachi</label>
+          <input type="checkbox" id="Hitachi" name="brand" value="Hitachi">
+          <label for=""></label>
+
+          <h3 class="filter-title">Питание</h3>           
+          <label for="battery-type">Акамуляторные</label>
+          <input type="radio" name="power-supply" id="battery-supply" value="battery" checked><br>
+          <label for="web-type">Сетевые</label>
+          <input type="radio" name="power-supply" id="network-supply" value="network"><br>
+          <input type="submit" value="Показать">
+        </form>
+        <section class="goods">
+          <div class="goods-title">
+            <a class="goods-btn" href="#">По цене</a>
+            <a class="goods-btn" href="#">По типу</a>
+            <a class="goods-btn" href="#">По функционалу</a>
+            <div class="goods-items">
+              <ul class="goods-list">
+                <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 3000</h3>
+            <span><del datetime="2017-08-11">22500 Р.</del></span>
+            <a class="btn popular-items-btn" href="#">15 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 6000</h3>
+            <span><del datetime="2017-08-11">30500 Р.</del></span>
+            <a class="btn popular-items-btn" href="#">25 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 2000</h3>
+            
+            <a class="btn popular-items-btn" href="#">12 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 3000</h3>
+            <span><del datetime="2017-08-11">22500 Р.</del></span>
+            <a class="btn popular-items-btn" href="#">15 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 6000</h3>
+            <span><del datetime="2017-08-11">30500 Р.</del></span>
+            <a class="btn popular-items-btn" href="#">25 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 2000</h3>
+            
+            <a class="btn popular-items-btn" href="#">12 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 3000</h3>
+            <span><del datetime="2017-08-11">22500 Р.</del></span>
+            <a class="btn popular-items-btn" href="#">15 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 6000</h3>
+            <span><del datetime="2017-08-11">30500 Р.</del></span>
+            <a class="btn popular-items-btn" href="#">25 500 Р.</a></li>
+            <li>
+            <img src="http://placehold.it/150x100" alt="BOSCH BFG 9000">
+            <h3>Перфоратор BOSCH BFG 2000</h3>
+            
+            <a class="btn popular-items-btn" href="#">12 500 Р.</a></li>
+
+              </ul>
+
+            </div>
+            <div class="goods-nav">
+              <a class="btn goods-btn" href="#">1</a>
+              <a class="btn goods-btn" href="#">2</a>
+              <a class="btn goods-btn" href="#">3</a>
+              <a class="btn goods-btn" href="#">Следующая</a>
+            </div>
+          </div>  
+        </setion>
+        <div class="about-hammer-drill">
+          <h2 class="section-title"> Пара слов о перфораторах</h2>
+          <p> Перфоратор универсальный строительный инструмен. Пердназначений для сверления и долбения отверстий в кирпиче, бетоне и камне. Существуют електромеханические и пневматичиские перфораторы. Совреманные модели могут виполнять фунции дрели, шуруповерта и отбойного молотка. В асортиментном ряду есть выбор &lt;&lt;трехрежиников&gt;&gt;:
+          в одном устройстве будут совмещены отбойний молоток и ударная дрель.
+
+        </div>
   		</main>
-  	
+  	<footer class="page-footer">
+        <div class="page-footer-top">
+          <div class="footer-logo"><p>Техномарт</p>
+          </div>
+          <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <div class="footer-menu">
+            <ul class="footer-nav">
+              <li><a href="#">Компания</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Доставка</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Материалы</a></li>
+              <li><a href="#">Техника</a></li>
+              <li><a href="#">Инструмент</a></li>
+              <li><a href="#">Спецпредложения</a></li>
+            </ul>
+          </div>  
+        </div>
+        <div class="page-footer-bottom">
+          <p class="copyright">
+            &copy; 2010-2016 Компания &laquo;Техномарт&raquo;<br>
+            Все права защищены
+          </p>
+          <section class="social">
+            <a class="social-btn vk-btn" href="#">Вконтакте</a>
+            <a class="social-btn fb-btn" href="#">Facebook</a>
+            <a class="social-btn inst-btn" href="#">Instagram</a>
+          </section>
+          <section class="feedback">
+            <table>
+              <tr>
+                <th>Обратная связь:</th>
+                <th>Разработано&ndash;</th>
+              </tr>
+              <tr>
+                <td>mail@htmlacademy.ru</td>
+                <td>htmlacademy.ru</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+      </footer>
 	</body>
 </html>
