@@ -1,18 +1,317 @@
 body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #ffffff;
+	background-color: grey;
+}
+
+a {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+.btn {
+	font-size: 14px;
+	background-color: #ee3643;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.btn:hover {
+	background-color: #ca2c37;
+}
+.btn:focus {
+	background-color: #ba2732;
+}
+.page-header {
+	background-color: #f3f7f9;
+}
+.header-top {
+	font-size: 17px;
+	font-weight: 18px;
+	background-color: #293449;
+	color: #ffffff;
+}
+.header-logo {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.header-top-right a {
+	font-size: 17px;
+	color: #ffffff;
+	text-transform: none;
+}
+
+.header-top-right a:hover {
+	background-color: #212a3a;
+}
+.header-top-right a:focus {
+	background-color: #161d29;
+	opacity: 0.6;
+}
+.header-top-right a:nth-child(3) {
+	background-color: #63a63e;
+}
+
+.header-top-right a:nth-child(3):hover {
+	background-color: #5fbb2d;
+}
+.header-top-right a:nth-child(3):focus {
+	background-color: #518534;
+	opacity: 0.51;
+}
+
+
+.search input[type="search"] {
+	outline: none;
+	background-color: transparent;
+	border: none;
+}
+
+::-webkit-input-placeholder {
+	color: #ffffff;
+}
+
+.search input[type="search"]:focus {
+	background-color: #ffffff;
+}
+
+.header-shop-description p {
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	color: #ee3643;
+}
+
+.header-phone {
+	font-size: 21px;
+	line-height: 25px;
+	color: #e9292a;
+}
+
+.header-adress {
+	font-size: 14px;
+	line-height: 17px;
+	color: #32425c;
+}
+
+.user-block .user-block-btn {
+	display: inline-block;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 21px;
+	line-height: 25px;
+	text-transform: none;
+}
+
+.user-block a:hover {
+	color: #ee3643;
+}
+
+.user-block a:focus {
+	color: #000000;
+	opacity: 0.3;
+}
+
+.main-menu {
+	background-color: #32425c;
+}
+
+.main-menu ul {
+	list-style: none;
+}
+
+.main-menu a {
+	font-size: 17px;
+	line-height: 17px;
+	color: #ffffff;
+}
+
+.main-menu a:hover {
+	background-color: #293449;
+	
 
 }
-h2.section-title {
-	font-family: Cuprum;
-	color: #3d546e;
-	line-height: 30px;
-	font-size: 30px;
-	text-transform: uppercase;
+
+.main-menu a:focus {
+	background-color: #1d2739;
+	opacity: 0.5;
 }
+
+.promo-list {
+	list-style: none;
+}
+
 .promo-item h4 {
-	font-family: Cuprum;
+	font-size: 24px;
+	line-height: 30px;
 	font-weight: bold;
 	color: #ffffff;
-	line-height: 30px;
-	font-size: 24px;
 }
 
+.promo-item a {
+	font-size: 17px;
+	opacity: 0.9;
+	color: #ffffff;
+	background-color: #e5e5e5;
+	text-transform: none;
+}
+.promo-item a:hover {
+	background-color: #cccccc; 
+	opacity: 0.8;
+}
+.promo-item a:focus {
+	background-color: #b2b2b2;
+	opacity: 0.7; 
+}
+.promo-slider b {
+
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.promo-slider p {
+	font-family: PT Sans, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.section-title {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+	background-color: #f9f5f0;
+}
+.popular-items-list {
+	list-style: none;
+}
+.popular-item-list-title {
+	font-family: PT Sans, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+.servises {
+	background-color: white;
+	background-image: url("../img/Layer 131.png"),
+					  url("../img/delivery-background.jpg");
+	background-repeat: no-repeat, repeat;
+}
+.servises h3 {
+	font-size: 30px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.servises p {
+	font-size: 13px;
+	line-height: 24px;
+	text-transform: none;
+	color: #000000;
+}
+.servises-list {
+	list-style: none;
+}
+.servises-list a {
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #32425c;
+}
+h3.delivery {
+	font-size: 36px;
+	line-height: 24px;
+	color: #32425c;
+}
+.servises-list a:hover {
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #293449;
+}
+.servises-list a:focus {
+	color: #000000;
+	background-color: #ffffff;
+}
+.about-company h3 {
+	font-size: 30px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.about-company p {
+	font-size: 13px;
+	line-height: 24px;
+	text-transform: none;
+	color: #000000;
+}
+.page-footer {
+	padding: 0px;
+	margin: 0px;
+}
+.footer-logo {
+	font-size: 30px;
+	line-height: 30px;
+}
+.page-footer-top {
+	background-color: #32425c;
+	color: #ffffff;
+
+}
+.footer-menu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.footer-nav a {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.footer-nav2 a {
+	font-size: 18px;
+	color: #ffd180;
+	
+}
+.footer-nav a:hover,
+.footer-nav2 a:hover {
+	text-decoration: underline;
+}
+
+.footer-nav a:focus,
+.footer-nav2 a:focus {
+	opacity: 0.5;
+}
+.page-footer-bottom {
+	background-color: #293449;
+}
+.feedback th a {
+	color: #ffffff;
+}
+.feedback td a {
+	color: #ffd180;
+}
+.feedback td a:hover {
+	text-decoration: underline;
+}
+.feedback td a:focus {
+	color: #ee3643;
+}
